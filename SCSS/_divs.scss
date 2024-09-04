@@ -1,0 +1,10 @@
+//id -> #
+//clase -> .
+//etiqueta -> h1
+
+.div1{
+    @include customdiv(50px, 75px, white, red);
+}
+.div2{
+    @include customdiv(150px, 175px, black, orange);
+}
